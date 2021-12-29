@@ -1232,6 +1232,7 @@ __metadata:
     "@types/express": ^4.17.13
     eslint: ^8.5.0
     express: ^4.17.2
+    git-commit-msg-linter: ^3.2.8
     husky: ^7.0.4
     lint-staged: ^12.1.4
     mrm: 2
@@ -1588,7 +1589,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chalk@npm:^2.0.0":
+"chalk@npm:^2.0.0, chalk@npm:^2.4.2":
   version: 2.4.2
   resolution: "chalk@npm:2.4.2"
   dependencies:
@@ -2110,6 +2111,16 @@ __metadata:
   version: 6.1.0
   resolution: "detect-indent@npm:6.1.0"
   checksum: ab953a73c72dbd4e8fc68e4ed4bfd92c97eb6c43734af3900add963fd3a9316f3bc0578b018b24198d4c31a358571eff5f0656e81a1f3b9ad5c547d58b2d093d
+  languageName: node
+  linkType: hard
+
+"did-you-mean@npm:^0.0.1":
+  version: 0.0.1
+  resolution: "did-you-mean@npm:0.0.1"
+  dependencies:
+    levenshtein: "*"
+    underscore: "*"
+  checksum: df777543e834facfccede1285ba06c907314a6c72059165b8688c8905df9065feb23a4419a16897a5e5b54c46a099dda2ff1eccdd08d7bf0602e72045057bc44
   languageName: node
   linkType: hard
 
@@ -3081,6 +3092,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"git-commit-msg-linter@npm:^3.2.8":
+  version: 3.2.8
+  resolution: "git-commit-msg-linter@npm:3.2.8"
+  dependencies:
+    chalk: ^2.4.2
+    did-you-mean: ^0.0.1
+    supports-color: ^8.1.1
+  checksum: 2b4031f189b3bc5a3d6d457a146aff0ad058325f321b7de3ba85179fede6be516352ff49165e0adcee9d8fe4ed7cb966c2e7fbc0058f49b9ba5b801d26e6ce55
+  languageName: node
+  linkType: hard
+
 "git-config-path@npm:^1.0.1":
   version: 1.0.1
   resolution: "git-config-path@npm:1.0.1"
@@ -4024,6 +4046,13 @@ __metadata:
   dependencies:
     package-json: ^6.3.0
   checksum: fbc72b071eb66c40f652441fd783a9cca62f08bf42433651937f078cd9ef94bf728ec7743992777826e4e89305aef24f234b515e6030503a2cbee7fc9bdc2c0f
+  languageName: node
+  linkType: hard
+
+"levenshtein@npm:*":
+  version: 1.0.5
+  resolution: "levenshtein@npm:1.0.5"
+  checksum: d5ceca3bfc4804ad50515291841d968eea5f1f740310c21b5ae6cb6d5514ee68b9c00405059f36934611d3258967bad6d306dcf299f446c7cdd25bdda2c4720c
   languageName: node
   linkType: hard
 
@@ -6322,6 +6351,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"supports-color@npm:^8.1.1":
+  version: 8.1.1
+  resolution: "supports-color@npm:8.1.1"
+  dependencies:
+    has-flag: ^4.0.0
+  checksum: c052193a7e43c6cdc741eb7f378df605636e01ad434badf7324f17fb60c69a880d8d8fcdcb562cf94c2350e57b937d7425ab5b8326c67c2adc48f7c87c1db406
+  languageName: node
+  linkType: hard
+
 "supports-color@npm:^9.2.1":
   version: 9.2.1
   resolution: "supports-color@npm:9.2.1"
@@ -6660,6 +6698,13 @@ __metadata:
     has-symbols: ^1.0.2
     which-boxed-primitive: ^1.0.2
   checksum: 89d950e18fb45672bc6b3c961f1e72c07beb9640c7ceed847b571ba6f7d2af570ae1a2584cfee268b9d9ea1e3293f7e33e0bc29eaeb9f8e8a0bab057ff9e6bba
+  languageName: node
+  linkType: hard
+
+"underscore@npm:*":
+  version: 1.13.2
+  resolution: "underscore@npm:1.13.2"
+  checksum: 6ab156c845ccc757fd01d8b9eb28be18ba89ac68993370dd7397a66a95b124f2ba26947fd53e687c084d334429914fc3dd1620d5123b6e0a7cf112cdcf4e859f
   languageName: node
   linkType: hard
 
